@@ -12,6 +12,7 @@ function Home() {
       </div>
       <div className={styles.containerItens}>
         <h2>Atividades</h2>
+        <Link to="/atividade/1">Atividade 1</Link>
       </div>
     </div>
   );
