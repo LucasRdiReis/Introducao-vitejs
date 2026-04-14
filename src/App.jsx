@@ -32,6 +32,10 @@ function App() {
       <Route path="/exemplo/8" element={<Exemplo08 />} />
       <Route path="/exemplo/9" element={<Exemplo09 />} />
       <Route path="/exemplo/10" element={<Exemplo10 />} />
+      <Route path="/exemplo/11" element={<Exemplo11 />} />
+      <Route path="/exemplo/12" element={<Exemplo12 />} />
+      <Route path="/exemplo/13" element={<Exemplo13 />} />
+      <Route path="/exemplo/14" element={<Exemplo14 />} />
       <Route path="/atividade/1" element={<Atividade01 />} />
       <Route path="/atividade/2" element={<Atividade02 />} />
     </Routes>

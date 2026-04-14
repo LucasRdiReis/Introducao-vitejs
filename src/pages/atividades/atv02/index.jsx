@@ -16,15 +16,19 @@ export default function Atividade02() {
   return (
     <div className={styles.container}>
       <h1>Atividade 2 - Contador</h1>
-      <h2>Um contador que consegue aumentar e diminuir um numero</h2>
+      <h2 className={styles.tex}>
+        Um contador que consegue aumentar e diminuir um numero
+      </h2>
       <div className={styles.dire}>
-        <label onClick={() => handleSubstract()} className={styles.botao}>
-          -1
-        </label>
-        <label className={styles.texto}>{`Contador: ${num}`}</label>
-        <label onClick={() => handleIncrementa()} className={styles.botao}>
-          +1
-        </label>
+        <div>
+          <label onClick={() => handleSubstract()} className={styles.botao}>
+            -1
+          </label>
+          <label className={styles.texto}>{`Contador: ${num}`}</label>
+          <label onClick={() => handleIncrementa()} className={styles.botao}>
+            +1
+          </label>
+        </div>
       </div>
     </div>
   );
