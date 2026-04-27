@@ -17,6 +17,7 @@ import Exemplo13 from "./pages/exemplos/ex-13/index.jsx";
 import Exemplo14 from "./pages/exemplos/ex-14/index.jsx";
 import Atividade01 from "./pages/atividades/atv01/index.jsx";
 import Atividade02 from "./pages/atividades/atv02/index.jsx";
+import Atividade03 from "./pages/atividades/atv03/index.jsx";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route path="/exemplo/14" element={<Exemplo14 />} />
       <Route path="/atividade/1" element={<Atividade01 />} />
       <Route path="/atividade/2" element={<Atividade02 />} />
+      <Route path="/atividade/3" element={<Atividade03 />} />
     </Routes>
   );
 }
