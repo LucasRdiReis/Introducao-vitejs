@@ -5,9 +5,18 @@
 }
 
 .mais {
-    background-color: forestgreen;
+    background-color: cyan;
 }
 
 .menos {
-    background-color: coral;
+    background-color: green;
+}
+.a {
+    background-color: orange;
+}
+.b {
+    background-color: red;
+}
+.c {
+    background-color: gray;
 }
